@@ -9,13 +9,13 @@ const Profile = () => {
       <div className="mt-4">
         
         <div className="avatar">
-          <div className="w-24 rounded-xl">
+          <div className="w-16 rounded-full">
             <img src={user?.photoURL} />
            
           </div>
           
         </div>
-         <h1 className="text-2xl font-semibold">{user?.displayName}</h1>
+         <h1 className="text-xl font-semibold">{user?.displayName}</h1>
       </div>
     </div>
   );
